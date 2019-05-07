@@ -10,13 +10,11 @@ def guessing_cli
             elsif user_input == "exit"
                 puts "Goodbye!" #allow user to exit the program
                     break
-                  else
-                    puts "the number has been guessed incorrectly"
-
-      end
-    end
-  end
-end
+            else
+              puts "the number has been guessed incorrectly"
+            end
+          end
+        end
 #  ""
 #use when , when you're using a case statement
 #takes in input from command line
