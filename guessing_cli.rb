@@ -13,9 +13,9 @@ while user_input.to_i.between?(1,6)
 
 when "exit "
     puts "Goodbye!" #allow user to exit the program
-  break 
+  break
 
-
+    end 
   end
 end
 
