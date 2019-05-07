@@ -1,8 +1,8 @@
 # Code your solution here!
 
-def guessing_cli(user_input)
+def guessing_cli
   user_input = " "
-
+    user_input = gets.strip
     while user_input.to_i.between?(1,6)
         puts "You guessed the correct number!"
 
