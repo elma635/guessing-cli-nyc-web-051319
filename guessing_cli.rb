@@ -2,7 +2,7 @@
 
 def run_guessing_game
   #user_input = " " #
-      while user_input        #automatically eval to true
+      while true #user_input        #automatically eval to true
         puts "Guess a number between 1 and 6."
         user_input = gets.chomp
         rand_num = rand 1..6 #returning 1 single number from the range
