@@ -7,19 +7,17 @@ def guessing_cli
         rand_num = rand 1..6 #returning 1 single number from the range
             if user_input == rand_num
               puts "You guessed the correct number!"
-
-    "the number has been guessed incorrectly"
-
-  elsif user_input == "exit"
-
+            elsif user_input == "exit"
                 puts "Goodbye!" #allow user to exit the program
                     break
+                  else
+                    puts "the number has been guessed incorrectly"
 
       end
     end
   end
 end
-
+#  ""
 #use when , when you're using a case statement
 #takes in input from command line
 #Comparing that input to a random number that has been generated
