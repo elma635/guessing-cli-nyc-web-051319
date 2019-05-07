@@ -11,7 +11,7 @@ def run_guessing_game
                 puts "Goodbye!" #allow user to exit the program
                     break
             else
-              puts "The computer guessed #{rand_num}"
+              puts "The computer guessed #{rand_num}."
             end
           end
         end
