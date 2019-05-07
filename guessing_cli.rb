@@ -1,6 +1,6 @@
 # Code your solution here!
 
-def guessing_cli
+def run_guessing_game
   user_input = " " #dont need this bc using get in th
       while user_input
         user_input = gets.strip
