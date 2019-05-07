@@ -5,7 +5,7 @@ def run_guessing_game
       while user_input
         user_input = gets.chomp
         rand_num = rand 1..6 #returning 1 single number from the range
-            if user_input == rand_num
+            if user_input.to_i == rand_num
               puts "You guessed the correct number!"
             elsif user_input == "exit"
                 puts "Goodbye!" #allow user to exit the program
