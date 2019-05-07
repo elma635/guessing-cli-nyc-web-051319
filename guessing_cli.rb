@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game
-  user_input = " " #dont need this bc using get in th
+  #user_input = " " #
       while user_input        #automatically eval to true
         puts "Guess a number between 1 and 6."
         user_input = gets.chomp
