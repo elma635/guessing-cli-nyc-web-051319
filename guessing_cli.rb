@@ -8,11 +8,12 @@ while user_input.to_i.between?(1,6)
   puts "You guessed the correct number!"
 
 
+
+    "the number has been guessed incorrectly"
+
 when "exit "
     puts "Goodbye!" #allow user to exit the program
-
-else
-  "the number has been guessed incorrectly"
+  break 
 
 
   end
