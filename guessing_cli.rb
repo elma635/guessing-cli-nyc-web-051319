@@ -3,7 +3,7 @@
 def run_guessing_game
   user_input = " " #dont need this bc using get in th
       while user_input
-        user_input = gets.strip
+        user_input = gets.chomp
         rand_num = rand 1..6 #returning 1 single number from the range
             if user_input == rand_num
               puts "You guessed the correct number!"
