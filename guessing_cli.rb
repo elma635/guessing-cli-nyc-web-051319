@@ -2,7 +2,7 @@
 
 def run_guessing_game
   user_input = " " #you dont need to repeat it @ the ends bc it doesnt even matter.
-      while user_input #this line will always eval to true no matter what so you dont even need line above. 
+      while user_input #this line will always eval to true no matter what so you dont even need line above.
         puts "Guess a number between 1 and 6." #need to ask this question first so the user knows what to do -- goes after while loop
         user_input = gets.chomp
         rand_num = rand 1..6 #returning 1 single number from the range
@@ -17,10 +17,4 @@ def run_guessing_game
           end
         end
 
-#use when , when you're using a case statement
-#takes in input from command line
-#Comparing that input to a random number that has been generated
-#Printing out a statement You guessed the correct number!
-#if the number has been guessed correctly, or The computer guessed <number>.
-# if the number has been guessed incorrectly ---
-#Allowing the user to exit the program when exit is the input
+ 
