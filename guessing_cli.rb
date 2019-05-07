@@ -1,9 +1,10 @@
 # Code your solution here!
 
 def guessing_cli
-  user_input = " "
-    user_input = gets.strip
-    while user_input.to_i.between?(1,6)
+  user_input = " " #dont need this bc using get in th
+      while user_input
+        user_input = gets.strip
+          rand_num = rand 1..6
         puts "You guessed the correct number!"
 
     "the number has been guessed incorrectly"
