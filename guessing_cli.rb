@@ -1,12 +1,10 @@
 # Code your solution here!
 
 def guessing_cli(user_input)
+  user_input = " "
 
-user_input = " "
-
-while user_input.to_i.between?(1,6)
-  puts "You guessed the correct number!"
-
+    while user_input.to_i.between?(1,6)
+        puts "You guessed the correct number!"
 
     "the number has been guessed incorrectly"
 
@@ -14,9 +12,11 @@ when "exit "
     puts "Goodbye!" #allow user to exit the program
   break
 
+      end
     end
   end
 end
+
 
 #takes in input from command line
 #Comparing that input to a random number that has been generated
