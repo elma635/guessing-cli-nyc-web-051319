@@ -5,6 +5,7 @@ def guessing_cli
 user_input = " "
 
 if user_input.to_i.between?(1,6)
+  "You guessed the correct number!"
 
 
 end
