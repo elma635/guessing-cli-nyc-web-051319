@@ -4,10 +4,18 @@ def guessing_cli
 
 user_input = " "
 
-if user_input.to_i.between?(1,6)
-  "You guessed the correct number!"
+while user_input.to_i.between?(1,6)
+  puts "You guessed the correct number!"
 
 
+when "exit " 
+    puts "Goodbye!" #allow user to exit the program
+  
+else
+  "the number has been guessed incorrectly"
+
+
+  end
 end
 
 #takes in input from command line
